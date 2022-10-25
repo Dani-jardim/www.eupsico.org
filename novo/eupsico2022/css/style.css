@@ -228,7 +228,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(75, 111, 242, 0.85), rgba(102, 139, 241, 0.85)), url(../img/bg_banner1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
