@@ -1,242 +1,642 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Eu Psico</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon-eupsico.png" />
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href="images/favicon-eupsico.png" rel="icon">
+    <title>EuPisco 2022</title>
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <div class="py-1 bg-black top">
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
       <div class="container">
-        <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
-          <div class="col-lg-12 d-block">
-            <div class="row d-flex">
-              <div class="col-md-9 pr-4 d-flex topper align-items-center">
-                <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-usd"></span></div>
-                <span class="text">Sua contribuição é fundamental para a continuidade do nosso trabalho.</span>
-              </div>
-              <div class="col-md pr-4 d-flex topper align-items-center justify-content-end">
-                <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-heart"></span></div>
-                <span class="text"><a class="link-text" href="https://pag.ae/7VvHpS7NM" target="_blank">Doe Agora</a></span>
-              </div>
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p>
+              <i class="bx bxs-envelope"></i>
+              <a
+                href="mailto:eupsico@eupsico.org.br"
+                style="color: white"
+                target="_blank"
+                >eupsico@eupsico.org.br</a
+              >
+            </p>
+            <p><i class="bx bxs-phone-call"></i> (11) 94346-9387</p>
+          </div>
+          <div class="col-auto social-icons">
+            <a
+              href="
+                    https://wa.me/+5511943469387?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%A3o!
+                    "
+              target="_blank"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+            <a href="https://www.facebook.com/eupsico" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/eupsico.psi/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/eu-psico/about/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.youtube.com/@EUPSICO" target="_blank"
+              ><i class="bx bxl-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand"
+          ><img
+            src="./img/logo-eupsico-max.png"
+            alt="logo transparencia-eupsico"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav ms-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link"><span>Sobre</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#o-que-fazemos" class="nav-link"
+                ><span>O que fazemos</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#prof-voluntarios" class="nav-link"
+                ><span>Profissionais e Voluntário</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link"><span>Blog</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link"
+                ><span>Contato</span></a
+              >
+            </li>
+            <li
+              class="nav-item cta mr-md-2 btn"
+              style="padding: 0px 6px; border: solid"
+            >
+              <a
+                href="https://pag.ae/7VvHpS7NM"
+                target="_blank"
+                class="nav-link"
+                style="color: #b81e1e8f"
+                >Quero doar</a
+              >
+            </li>
+          </ul>
+
+          <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn btn-brand ms-lg-3">Faça uma doaç</a> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="owl-carousel owl-theme hero-slider" id="home-section">
+      <div class="slide slide1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center text-white">
+              <h5 class="text-white text-uppercase">
+                A sua contribuição ajudará salvar uma vida.
+              </h5>
+              <h1 class="display-3 my-4">Apadrinhe um atendimento!</h1>
+              <a
+                href="https://apoia.se/eupsico"
+                target="_blank"
+                class="btn btn-brand"
+                >Quero ser um padrinho!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1 text-white">
+              <h5 class="text-white text-uppercase">Precisamos de uma sede.</h5>
+              <h1 class="display-3 my-4">
+                Sua doação ajudará na<br />
+                realização do nosso sonho
+              </h1>
+              <a
+                href="https://apoia.se/sedeeupsico"
+                target="_blank"
+                class="btn btn-brand"
+                >Quero ajudar na compra da sede!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center text-white">
+              <h6 class="text-white text-uppercase">Podcast</h6>
+              <h1 class="display-3 my-4">
+                Saúde Mental<br />
+                Importa sim!
+              </h1>
+              <a
+                href="https://anchor.fm/eupsico"
+                target="_blank"
+                class="btn btn-brand"
+                >Quero ouvir!</a
+              >
+              <a
+                href="https://sites.google.com/view/podcast-eupsico"
+                target="_blank"
+                class="btn btn-outline-light ms-3"
+                >Quero conhecer mais</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1 text-white">
+              <h5 class="text-white text-uppercase">Precisamos de uma sede.</h5>
+              <h1 class="display-3 my-4">
+                Estamos aumentando os <br />atendimentos
+              </h1>
+              <a
+                href="https://sites.google.com/view/transparencia-eupsico/"
+                target="_blank"
+                class="btn btn-brand"
+                >Quero conhecer mais</a
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="images/logo-eupsico-max.png" alt="EuPsico" title="EuPsico"></a>
-        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-            <li class="nav-item"><a href="#about-section" class="nav-link"><span>Sobre</span></a></li>
-            <li class="nav-item"><a href="#department-section" class="nav-link"><span>Equipe</span></a></li>
-            <li class="nav-item"><a href="#what-we-do-individual-section" class="nav-link"><span>O que fazemos</span></a></li>
-            <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
-            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contato</span></a></li>
-            <li class="nav-item cta mr-md-2"><a href="https://pag.ae/7VvHpS7NM" target="_blank" class="nav-link">Faça uma doação</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg');" data-section="home" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-6 pt-5 ftco-animate">
-            <div class="mt-5">
-              <span class="subheading">Boas vindas à EuPsico</span>
-              <h1 class="mb-4">Saúde mental <br>importa SIM!</h1>
-              <p class="mb-4">Damos acesso à saúde mental a população com vulnerabilidade social, através de atendimentos psicológicos individuais e em grupos.</p>
-              <p><a href="https://pag.ae/7VvHpS7NM" target="_blank" class="btn btn-primary py-3 px-4">Faça uma doação</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-6 col-lg-5 d-flex">
-            <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.png);">
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
-            <div class="py-md-5">
-              <div class="row justify-content-start pb-3">
-                <div class="col-md-12 heading-section ftco-animate p-4 p-lg-5">
-                  <h2 class="mb-4">Grupo de Atendimento Multidisciplinar <span>EuPsico</span></h2>
-                  <p>O Grupo de atendimento multidisciplinar EuPsico nasceu em Abril de 2010, quando um grupo de psicólogas identificou que a população de Carapicuíba - SP tinha pouco acesso a saúde mental. Esse grupo procurou apoio da população para realizar atendimento psicológico às pessoas que precisavam.</p>
-                  <p>O propósito da Eupsico é a promoção da saúde mental, pois acredita que todos devem ter acesso e conhecimento no que se refere a esse assunto tão importante. Para atingir esse objetivo, a Eupsico realiza palestras, rodas de conversas e grupos de discussão, quebrando paradigmas relacionados à saúde mental em Escolas,  parques, empresas, entre outros lugares.</p>
-                  <p>
-                    <!-- <a href="#" class="btn btn-primary py-3 px-4">Saiba mais </a> -->
-                    <a href="#contact-section" class="btn btn-secondary py-3 px-4">Entre em contato</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="what-we-do-individual-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-12 ">
-            <div class="py-lg-3">
-              <div class="row justify-content-center text-center pb-5">
-                <div class="col-md-12 heading-section ftco-animate">
-                  <h2 class="mb-3">Seja um voluntário</h2>
-                  <p>Se voce tem interesse em se voluntariar, envie um email para <br><a href="mailto: recrutamentoeselecao.eupsico@eupsico.org.br"> recrutamentoeselecao.eupsico@eupsico.org.br </a>com o assunto "Quero ser voluntário"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="what-we-do-individual-section">
+    <!-- ABOUT -->
+    <section id="about-section">
       <div class="container">
         <div class="row justify-content-center">
-            <div class="row d-flex">
-              <div class="col-md-12 ">
-                <div class="py-lg-3">
-                  <div class="row justify-content-center text-center pb-5">
-                    <div class="col-md-12 heading-section ftco-animate">
-                      <h2 class="mb-3">Video Institucional</h2>
-                      <iframe width="860" height="515" src="https://www.youtube.com/embed/bQWGZmYKS74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+          <div class="col-lg-5 py-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="info-box">
+                  <img src="img/icon6.png" alt="" />
+                  <div class="ms-4">
+                    <h5>Atendimento Multidisciplinar EuPsico</h5>
+                    <p>
+                      O Grupo de atendimento multidisciplinar EuPsico nasceu em
+                      Abril de 2010, quando um grupo de psicólogas identificou
+                      que a população de Carapicuíba - SP tinha pouco acesso a
+                      saúde mental. Esse grupo procurou apoio da população para
+                      realizar atendimento psicológico às pessoas que
+                      precisavam.
+                    </p>
+                    <p>
+                      O propósito da Eupsico é a promoção da saúde mental, pois
+                      acredita que todos devem ter acesso e conhecimento no que
+                      se refere a esse assunto tão importante. Para atingir esse
+                      objetivo, a Eupsico realiza palestras, rodas de conversas
+                      e grupos de discussão, quebrando paradigmas relacionados à
+                      saúde mental em Escolas, parques, empresas, entre outros
+                      lugares.
+                    </p>
+                    <a
+                      href="https://sites.google.com/view/historia-eupsico/in%C3%ADcio"
+                      target="_blank"
+                      class="btn btn-brand"
+                      >Quero conhecer a história da Eupsico!</a
+                    >
                   </div>
                 </div>
               </div>
-            </div>          
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/about.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-intro img" style="background-image: url(images/bg_2.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-9 text-center">
-            <h2>Apoie nossa causa</h2>
-            <p>Se você também acredita no poder transformador da saúde mental, junte-se a nós! Sua contribuição é fundamental para a continuidade do nosso trabalho.</p>
-            <p class="mb-0">
-              <a href="mailto: recrutamentoeselecao.eupsico@eupsico.org.br" class="btn btn-primary py-3 px-4 mb-1">Seja um voluntário</a>
-              <a href="mailto: recrutamentoeselecao.eupsico@eupsico.org.br" class="btn btn-secondary py-3 px-4 mb-1">Seja um parceiro</a>
+    <!-- MILESTONE -->
+    <section id="milestone">
+      <div class="container" id="department-section">
+        <div class="row text-center justify-content-center gy-4">
+          <h3 style="color: aliceblue">NOSSOS NÚMEROS</h3>
+          <div class="col-lg-2 col-sm-6">
+            <p class="mb-0">2019</p>
+            <h1 class="display-4">6203</h1>
+            <p class="mb-0">Atendimentos realizados por ano</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <p class="mb-0">2020</p>
+            <h1 class="display-4">6004</h1>
+            <p class="mb-0">Atendimentos realizados por ano</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <p class="mb-0">2021</p>
+            <h1 class="display-4">9465</h1>
+            <p class="mb-0">Atendimentos realizados por ano</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <p class="mb-0">2022</p>
+            <h1 class="display-4">13200</h1>
+            <p class="mb-0">Atendimentos realizados por ano</p>
+          </div>
+          <div class="col-lg-10 col-sm-10">
+            <h2 style="color: aliceblue">Transparência</h2>
+            <p style="color: aliceblue; margin-bottom: 50px">
+              Com a pandemia nós passamos atender na modalidade online,
+              aumentando significativamente na procura por atendimento
+              individual de saúde mental, em 2019 antes da pandemia no ano
+              atendemos 6203 e fechamos 2021 com 9465, um aumento de 52,58%.
+              Hoje contamos com a modalidade presencial e online.
             </p>
+            <div class="col-12">
+              <a
+                href="https://sites.google.com/view/transparencia-eupsico/in%C3%ADcio"
+                target="_blank"
+                class="btn btn-brand"
+                >Quero conhecer os dados da Eupsico!</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb" id="department-section">
-      <div class="container-fluid">
-        <div class="row justify-content-center my-5">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Nossos profissionais</h2>
-            <p>A EuPsico é composta por um equipe multidisciplinar. Contamos atualmente com 44 profissionais voluntários de diversas especialidades.</p>
-          </div>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-md-4 d-flex">
-            <div class="img img-dept align-self-stretch" style="background-image: url(images/dept-1.png);"></div>
-          </div>
-
-          <div class="col-md-8">
-            <div class="row no-gutters">
-              <div class="col-md-6">
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Psicólogas</h3>
-                  </div>
-                </div>
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Psiquiatras</h3>
-                  </div>
-                </div>
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Psicopedagogas</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Psicogerontólogas</h3>
-                  </div>
-                </div>
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Nutricionistas</h3>
-                  </div>
-                </div>
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Assistentes sociais</h3>
-                  </div>
-                </div>
-                <div class="department-wrap p-4 ftco-animate">
-                  <div class="text p-2 text-center">
-                    <div class="icon">
-                      <span class="flaticon-stethoscope"></span>
-                    </div>
-                    <h3>Musicoterapia</h3>
-                  </div>
-                </div>
-              </div>
+    <section id="o-que-fazemos" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1>Nossos Serviços</h1>
+              <p class="mx-auto">
+                A EuPsico é composta por uma equipe multidisciplinar. Contamos
+                atualmente com 60 profissionais voluntários de diversas
+                especialidades.
+              </p>
             </div>
           </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon1.png" alt="" />
+              <h5>Psicólogas</h5>
+              <p>
+                Atendimento psicológico para crianças, adolescentes, adultos,
+                idosos, casais e famílias.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon2.png" alt="" />
+              <h5>Psicogerontólogas</h5>
+              <p>
+                A psicogerontologia constituiu um trabalho de compreensão do
+                processo de envelhecimento de forma interdisciplinar.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon3.png" alt="" />
+              <h5>Psiquiatras</h5>
+              <p>
+                Avaliação médica psiquiátrica que investiga a presença de
+                problemas emocionais, de comportamento ou transtornos mentais,
+                realiza a formulação diagnóstica e plano terapêutico mais
+                adequados ao caso.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon4.png" alt="" />
+              <h5>Nutricionistas</h5>
+              <p>
+                A nutricionista faz a avaliação do paciente para elaborar uma
+                nova rotina de práticas alimentares que se ajustem ao perfil a
+                ao objetivo do paciente.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon5.png" alt="" />
+              <h5>Psicopedagogas</h5>
+              <p>
+                Atendimento e diagnóstico psicopedagógico para crianças e
+                adolescentes com problemas no processo de aprendizagem.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon6.png" alt="" />
+              <h5>Assistentes sociais</h5>
+              <p>
+                Realiza triagem, reavaliação e avaliação socioeconômica da
+                EuPsico, identificando as possíveis necessidades das pessoas
+                direcionando as demandas necessárias.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="service">
+              <img src="img/icon7.png" alt="" />
+              <h5>Musicoterapia</h5>
+              <p>
+                Musicoterapia é uma prática com Música no contexto clínico de
+                tratamento e reabilitação, como facilitadora na comunicação de
+                crianças com autismo, como o fazemos na EuPsico
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1>Conheça os nossos Grupos Terapêuticos</h1>
+              <p class="mx-auto">
+                O grupo terapêutico potencializa as trocas, o compartilhamento
+                de experiências e a melhoria na adaptação ao modo de vida
+                individual e coletivo. O grupo é o lugar onde ocorre o debate
+                sobre a necessidade, trocas de experiências e vivências.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects-slider" class="owl-theme owl-carousel">
+        <div class="project">
+          <div class="overlay"></div>
+          <img src="img/project1.jpg" alt="" />
+          <div class="content">
+            <h2>Questões de peso</h2>
+            <h6>
+              Coordenado por psicóloga e nutricionista, o grupo acolhe quem tem
+              problemas com o ganho de peso e que já tentou o emagrecimento de
+              diversas formas inclusive com a cirurgia bariátrica. Trabalhamos
+              tudo que está relacionado emagrecimento saudável e na qualidade de
+              vida. Encontros Quinzenais - Presencial.
+            </h6>
+            <a
+              href="https://sites.google.com/view/questoesdepeso-eupsico/in%C3%ADcio"
+              target="_self"
+              class="btn btn-brand"
+              >Quero me inscrever!</a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img src="img/project2.jpg" alt="" />
+          <div class="content">
+            <h2>Papo de adolescente</h2>
+            <h6>
+              Espaço de fala, escuta e aprendizado entre o público jovem e
+              profissionais qualificadas. Grupo que atua no fortalecimento de
+              vínculos e na potencialidade de afeto e intelectual. Encontros
+              Quinzenais - On-line
+            </h6>
+            <a
+              href="https://sites.google.com/view/papodeadolecente-eupsico/in%C3%ADcio"
+              target="_self"
+              class="btn btn-brand"
+              >Quero me inscrever!</a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img src="img/project3.jpg" alt="" />
+          <div class="content">
+            <h2>Envelhecimento ativo</h2>
+            <h6>
+              A Oficina de Estimulação Cognitiva com o Grupo de Terceira Idade
+              acompanha pessoas acima de 50 anos no processo do envelhecimento,
+              contribuindo para uma vida mais saudável auxiliando na autonomia e
+              independência, promovendo a prevenção da perda de memória e
+              favorecendo a socialização e o humor dos membros participantes.
+              Encontros Semanais Presencial.
+            </h6>
+            <a
+              href="https://sites.google.com/view/envelhecimento-ativo-eupsico/in%C3%ADcio"
+              target="_self"
+              class="btn btn-brand"
+              >Quero me inscrever!</a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img src="img/project4.jpg" alt="" />
+          <div class="content">
+            <h2>Grupo de apoio a Família</h2>
+            <h6>
+              O grupo constitui-se no ambiente sistêmico de proteção e
+              socialização para famílias que tem pessoas com autismo ou
+              deficiências intelectuais/ mentais, trabalhando temas relevantes
+              para as famílias
+            </h6>
+            <a
+              href="https://sites.google.com/view/grupo-de-maes-eupsico/in%C3%ADcio"
+              target="_self"
+              class="btn btn-brand"
+              >Quero me inscrever!</a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img src="img/project5.jpg" alt="" />
+          <div class="content">
+            <h2>Grupo Transvivência</h2>
+            <h6>
+              Grupo terapêutico para pessoas TRANS (transgêneros, transsexuais e
+              travestis). É um espaço seguro de encontro trocas, escuta,
+              acolhimento e colaboração. Encontros Quinzenais - On-line
+            </h6>
+            <a
+              href="https://sites.google.com/view/transvivencia-eupsico/in%C3%ADcio"
+              target="_self"
+              class="btn btn-brand"
+              >Quero me inscrever!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="voluntario" class="bg-light">
+      <div class="row col-12">
+        <div class="col-12">
+          <div class="intro">
+            <h1>Seja um voluntário</h1>
+            <p style="max-width: 900px" class="mx-auto">
+              Quando você é voluntário, você tem a oportunidade de fazer uma
+              verdadeira diferença na vida de pessoas mais principalmente na
+              sua. Se você estiver interessado em ser voluntário envie um email
+              para
+              <a href="mailto:recrutamentoeselecao.eupsico@eupsico.org.br"
+                >recrutamentoeselecao.eupsico@eupsico.org.br</a
+              >
+              com o assunto <b>Quero ser voluntário"</b>
+            </p>
+            <a
+              href="https://sites.google.com/view/profissionais-e-voluntarios/in%C3%ADcio"
+              target="_blank"
+              class="btn btn-brand"
+              >Quero conhecer mais sobre ser voluntário</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prof-voluntarios">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>Profissionais e Voluntários</h6>
+              <h1>Nossos profissionais voluntários</h1>
+              <p style="max-width: 900px" class="mx-auto">
+                A EuPsico é composta por um equipe multidisciplinar. Contamos
+                atualmente com 60 profissionais voluntários de diversas
+                especialidades.
+              </p>
+              <h5>Nossos Gestores</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario3.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Paula Alves</h5>
+              <p>Presidente</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario5.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Rosangela Campos</h5>
+              <p>Vice-Presidente</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario2.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Juliana Barreto</h5>
+              <p>Gestão de Pessoas</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario1.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Marcos Teles</h5>
+              <p>Técnologia da informação</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario4.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Flávia Cristina</h5>
+              <p>Financeiro</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/voluntario6.png" alt="" />
+
+                <div class="overlay"></div>
+              </div>
+
+              <h5>Henrique Wagner</h5>
+              <p>Eventos</p>
+            </div>
+          </div>
+          <a
+            href="https://sites.google.com/view/cultura-organizacional-eupsico/in%C3%ADcio"
+            target="_blank"
+            class="btn btn-brand"
+            >Quero conhecer mais sobre a cultura organizacional</a
+          >
         </div>
       </div>
     </section>
@@ -244,7 +644,13 @@
     <section class="ftco-section my-5 py-0">
       <div class="text-center">
         <p class="mb-0">
-          <button class="btn btn-primary px-4 py-3" data-toggle="collapse" data-target="#professionals-list">Conheça nossos profissionais</button>
+          <button
+            class="btn btn-primary px-4 py-3"
+            data-toggle="collapse"
+            data-target="#professionals-list"
+          >
+            Conheça nossos profissionais
+          </button>
         </p>
       </div>
 
@@ -267,11 +673,11 @@
                 <td>CRP 06/128960</td>
               </tr>
               <tr>
-                <td>Elizangela Barbosa Do Nascimento </td>
+                <td>Elizangela Barbosa Do Nascimento</td>
                 <td>CRP 107964</td>
               </tr>
               <tr>
-                <td>Rosangela De Campos Mendes </td>
+                <td>Rosangela De Campos Mendes</td>
                 <td>CRP 06/128960</td>
               </tr>
               <tr>
@@ -319,7 +725,7 @@
                 <td>CRP 96506</td>
               </tr>
               <tr>
-                <td>Marcela Duarte Bottas </td>
+                <td>Marcela Duarte Bottas</td>
                 <td>CRP 06/124627</td>
               </tr>
               <tr>
@@ -363,7 +769,7 @@
                 <td>CRP 112057</td>
               </tr>
               <tr>
-                <td>Antônia  Maria Da Silva Ferreira </td>
+                <td>Antônia Maria Da Silva Ferreira</td>
                 <td>CRP 127190</td>
               </tr>
               <tr>
@@ -376,7 +782,7 @@
               </tr>
               <tr>
                 <td>Rogério Fernando Silva</td>
-                <td>CRP 06/117703 </td>
+                <td>CRP 06/117703</td>
               </tr>
               <tr>
                 <td>Ricardo Santos Nogueira</td>
@@ -419,7 +825,7 @@
                 <td>CRP 06/143617</td>
               </tr>
               <tr>
-                <td>Jayne Pereira De Almeida </td>
+                <td>Jayne Pereira De Almeida</td>
                 <td>CRP 06/150131</td>
               </tr>
               <tr>
@@ -452,486 +858,289 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="what-we-do-individual-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-12 py-5">
-            <div class="py-lg-5">
-              <div class="row justify-content-center text-center pb-5">
-                <div class="col-md-12 heading-section ftco-animate">
-                  <h2 class="mb-3">O que fazemos</h2>
-                  <h4>Atendimentos individuais</h4>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                  <div class="media block-6 services d-flex">
-                    <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-first-aid-kit"></span></div>
-                    <div class="media-body pl-md-4">
-                      <h3 class="heading mb-3">Psicológico</h3>
-                      <p>Atendimento psicológico para crianças, adolescentes, adultos, idosos, casais e famílias.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                  <div class="media block-6 services d-flex">
-                    <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-doctor"></span></div>
-                    <div class="media-body pl-md-4">
-                      <h3 class="heading mb-3">Psicopedagógico</h3>
-                      <p>Atendimento e diagnóstico psicopedagógico para crianças e adolescentes com problemas no processo de aprendizagem.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                  <div class="media block-6 services d-flex">
-                    <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-heart-rate"></span></div>
-                    <div class="media-body pl-md-4">
-                      <h3 class="heading mb-3">Nutricionista</h3>
-                      <p>Avaliação nutricional e antropométrica, diagnóstico nutricional e plano alimentar individualizado para crianças, adolescentes, adultos e idosos.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <section class="bg-light" id="reviews">
+      <div class="owl-theme owl-carousel reviews-slider container">
+        <div class="review">
+          <div class="person">
+            <img src="img/team_1.jpg" alt="" />
+            <h5>Gregório</h5>
+            <small>Ex paciente</small>
           </div>
+          <h3>
+            Ótimos profissionais. Sempre fui muito bem recebido e tratado com
+            muito respeito. Não conheço todos os profissionais que trabalham no
+            local, mas posso assegurar que os que conheço, são excelentes! Sou
+            paciente do local e me sinto muito bem, sempre que estou aqui.
+          </h3>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <i class="bx bxs-quote-alt-left"></i>
+        </div>
+        <div class="review">
+          <div class="person">
+            <img src="img/team_1.jpg" alt="" />
+            <h5>Gregório</h5>
+            <small>Ex paciente</small>
+          </div>
+          <h3>
+            Ótimos profissionais. Sempre fui muito bem recebido e tratado com
+            muito respeito. Não conheço todos os profissionais que trabalham no
+            local, mas posso assegurar que os que conheço, são excelentes! Sou
+            paciente do local e me sinto muito bem, sempre que estou aqui.
+          </h3>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <i class="bx bxs-quote-alt-left"></i>
+        </div>
+        <div class="review">
+          <div class="person">
+            <img src="img/team_1.jpg" alt="" />
+            <h5>Gregório</h5>
+            <small>Ex paciente</small>
+          </div>
+          <h3>
+            Ótimos profissionais. Sempre fui muito bem recebido e tratado com
+            muito respeito. Não conheço todos os profissionais que trabalham no
+            local, mas posso assegurar que os que conheço, são excelentes! Sou
+            paciente do local e me sinto muito bem, sempre que estou aqui.
+          </h3>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <i class="bx bxs-quote-alt-left"></i>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section pt-5" id="what-we-do-group-section">
-      <div class="container-fluid px-5">
-        <div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h4 class="mb-4">Atendimentos em grupo</h4>
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>Blog</h6>
+              <h1>Nossas últimas Ações</h1>
+              <p class="mx-auto">
+                Durante todo ano fazemos ações de prevenção e conscientização da
+                saúde mental
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
-              <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
-              </div>
-              <div class="text pt-3 text-center">
-                <h3 class="mb-2">Questões de peso</h3>
-                <span class="position mb-2">Psicóloga e Nutricionista</span>
-                <div class="faded">
-                  <p>Acolhimento para quem tem problemas com peso.</p>
-                  <p><a href="#" class="btn btn-primary disabled">Saiba mais</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
-              <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
-              </div>
-              <div class="text pt-3 text-center">
-                <h3 class="mb-2">Papo de adolescente</h3>
-                <span class="position mb-2">Psicóloga e Psicopedagoga</span>
-                <div class="faded">
-                  <p>Espaço de fala aos jovens para as questões da adolescência.</p>
-                  <p><a href="#" class="btn btn-primary disabled">Saiba mais</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
-              <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
-              </div>
-              <div class="text pt-3 text-center">
-                <h3 class="mb-2">Envelhecimento ativo</h3>
-                <span class="position mb-2">Psicóloga e Psicogerontóloga</span>
-                <div class="faded">
-                  <p>Promoção de qualidade de vida na terceira idade.</p>
-                  <p><a href="#" class="btn btn-primary disabled">Saiba mais</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
-              <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
-              </div>
-              <div class="text pt-3 text-center">
-                <h3 class="mb-2">Grupo de Mães</h3>
-                <span class="position mb-2">Psicóloga e Psicopedagoga</span>
-                <div class="faded">
-                  <p>Orientação e apoio a mães de crianças com autismo.</p>
-                  <p><a href="#" class="btn btn-primary disabled">Saiba mais</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_3.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-5 heading-section heading-section-white">
-            <span class="subheading">Nossos Números</span>
-            <h2 class="mb-4">Transparência</h2>
-            <p>Em dezembro de 2018,  a Eupsico atingiu 3900 atendimento, limite máximo que era possível em função do nosso antigo espaço, como mudamos para um lugar maior, a projeção para o ano de 2019 é de 4756 atendimentos.</p>
-            <p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3 disabled">veja os nosso números</a></p>
-          </div>
-          <div class="col-md-7">
-            <div class="row pt-4">
-              <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18">
-                  <div class="text">
-                    <span>2016</span>
-                    <strong class="number" data-number="1408">0</strong>
-                    <span>Atendimentos realizados por ano  </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18">
-                  <div class="text">
-                    <span>2017</span>
-                    <strong class="number" data-number="2100">0</strong>
-                    <span>Atendimentos realizados por ano  </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18">
-                  <div class="text">
-                    <span>2018</span>
-                    <strong class="number" data-number="3900">0</strong>
-                    <span>Atendimentos realizados por ano  </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18">
-                  <div class="text">
-                    <span>2019</span>
-                    <strong class="number" data-number="6138">0</strong>
-                    <span>Atendimentos realizados por ano  </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="ftco-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Nossas últimas ações</h2>
-            <p>Durante todo ano fazemos ações de prevenção e conscientização da saúde mental</p>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/jornada.jpg');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2018 e 2019</div>
-                </div>
-                <h3 class="heading">Jornada Eupsico 2018 e 2019</a></h3>
-                <p>A Jornada Multidisciplinar Eupsico foi realizada em agosto de 2018 na Universidade Anhanguera no polo de Carapicuíba. Com o intuito de reunir profissionais de diversas áreas para elevar o nível técnico, cultural e ético no exercício da profissão, abrindo espaço para os profissionais apresentarem os seus trabalhos, assim como também proporcionar acesso a informação sobre a saúde mental gratuitamente à população de Carapicuíba.
+          <div class="col-md-4">
+            <article class="blog-post">
+              <img src="img/project5.jpg" alt="" />
+              <a href="#" class="tag">Jornadas</a>
+              <div class="content">
+                <h5>Jornada Eupsico 2018 e 2019</h5>
+                <p>
+                  A Jornada Multidisciplinar Eupsico foi realizada em agosto de
+                  2018 na Universidade Anhanguera no polo de Carapicuíba. Com o
+                  intuito de reunir profissionais de diversas áreas para elevar
+                  o nível técnico, cultural e ético no exercício da profissão,
+                  abrindo espaço para os profissionais apresentarem os seus
+                  trabalhos, assim como também proporcionar acesso a informação
+                  sobre a saúde mental gratuitamente à população de Carapicuíba.
                 </p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
               </div>
-            </div>
+            </article>
           </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/envelhecimento-ativo.jpg');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2019</div>
-                </div>
-                <h3 class="heading"> Envelhecimento ativo - Um dia para cuidar da saúde</h3>
-                  <p>No dia 23 de março de 2019 a Eupsico realizou um evento exclusivo na sede da Eupsico para o idoso cuidar da saúde física e mental. Havia diversos profissionais para atendê-los, tais como Psicólogas, Nutricionistas, Psicogerontóloga, Enfermeiros, Advogados, Professores, Massoterapeutas etc.
-                  </p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
+          <div class="col-md-4">
+            <article class="blog-post">
+              <img src="img/project4.jpg" alt="" />
+              <a href="#" class="tag">Envelhecimento Ativa</a>
+              <div class="content">
+                <h5>Envelhecimento ativo - Um dia para cuidar da saúde</h5>
+                <p>
+                  No dia 23 de março de 2019 a Eupsico realizou um evento
+                  exclusivo na sede da Eupsico para o idoso cuidar da saúde
+                  física e mental. Havia diversos profissionais para atendê-los,
+                  tais como Psicólogas, Nutricionistas, Psicogerontóloga,
+                  Enfermeiros, Advogados, Professores, Massoterapeutas etc.
+                </p>
               </div>
-            </div>
+            </article>
           </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/image_3.jpg');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2018 e 2019</div>
-                </div>
-                <h3 class="heading">Caminhada sobre setembro amarelo 2018 e 2019</h3>
-                <p>Em 2019, a Eupsico apresentou um movimento diferente do ano anterior no Setembro Amarelo. Foram realizadas rodas de conversa e palestras sobre o setembro amarelo em Escolas, Empresas, Parques e Teatros. Por meio dessas palestras foram foram alcançadas 2365 pessoas.</p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
+          <div class="col-md-4">
+            <article class="blog-post">
+              <img src="img/project2.jpg" alt="" />
+              <a href="#" class="tag">Setembro Amarelo</a>
+              <div class="content">
+                <h5>Caminhada sobre setembro amarelo 2018 e 2019</h5>
+                <p>
+                  Em 2019, a Eupsico apresentou um movimento diferente do ano
+                  anterior no Setembro Amarelo. Foram realizadas rodas de
+                  conversa e palestras sobre o setembro amarelo em Escolas,
+                  Empresas, Parques e Teatros. Por meio dessas palestras foram
+                  foram alcançadas 2365 pessoas.
+                </p>
               </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/prevencao-suicidio.png');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2017</div>
-                </div>
-                <h3 class="heading">Depressão e suicídio no shopping</a></h3>
-                  <p>A Eupsico realizou uma palestra sobre depressão e suicídio no Shopping de Carapicuíba em 2017, com o intuito de trazer informações para a comunidade, para que eles compreendessem o que é a depressão e qual a sua forma de tratamento, uma vez que o índice de depressão no mundo vem crescendo a cada dia e ainda assim existem pessoas que não tem conhecimento sobre a doença.
-                  </p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/janeiro-branco2.jpg');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2017, 2018 e 2019</div>
-                </div>
-                <h3 class="heading">Janeiro Branco de 2017, 2018 e 2019</h3>
-                  <p>Em 2019, a Eupsico passou a conscientizar as pessoas através das redes sociais a importância de olhar e cuidar da Saúde mental. Junto a isso, foi criado uma agenda de triagem especial, no qual foi realizado o acolhimento às pessoas que buscavam ajuda psicológica e na sequência foram encaminhadas para acompanhamento psicológico.
-                  </p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <p class="block-20" style="background-image: url('images/autismo.jpg');">
-              </p>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div>2018</div>
-                </div>
-                <h3 class="heading">Palestra sobre autismo</h3>
-                  <p>No dia 28 de abril de 2018, a Eupsico realizou uma palestra e roda de conversa na Escola Toufic Joulian com o intuito de elucidar a população sobre o Transtorno de Espectro Autista, as formas de tratamento e os direitos que as pessoas acometidas pelo transtorno tem. Nesse evento houve participação de pessoas que eram portadoras dos transtorno e seus cuidadores, compartilhando a descoberta da doença, tratamento e os desafios que enfrentaram após a descoberta.
-                  </p>
-                 <p><a href="" class="btn btn-primary py-2 px-3 disabled">Leia mais</a></p>
-              </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
-<!--
-    <section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row justify-content-center pb-3">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <span class="subheading">Faça parte dessa história</span>
-            <h2 class="mb-4">Parcerias</h2>
-            <p class="mb-4">Nosso trabalho é realizado sem apoio financeiro. Os custos são pagos através do valor arrecadados dos atendimentos. Em nossos eventos contamos com venda de alimentos, produtos e, principalmente, com a colaboração de parceiros.</p>
-
-          </div>
-        </div>
-        <div class="row ftco-animate justify-content-center">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                  </div>
-                </div>
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h4 class="col-lg-4 text-center">
+                <a class=""
+                  ><img
+                    src="./img/logo-eupsico-branco.png"
+                    alt="logo-eupsico-branco"
+                /></a>
+              </h4>
+              <p>
+                R. Serra Parima, 82 - Jardim Planalto, Carapicuíba - SP,
+                06360-170
+              </p>
+              <div class="col-auto social-icons">
+                <a
+                  href="
+                            https://wa.me/+5511943469387?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%A3o!
+                            "
+                  ><i class="bx bxl-whatsapp"></i
+                ></a>
+                <a href="https://www.facebook.com/eupsico" target="_blank"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a href="https://instagram.com/eupsico.psi" target="_blank"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="https://www.youtube.com/channel/euosuci"
+                  ><i class="bx bxl-youtube"></i
+                ></a>
+                <a href="https://www.youtube.com/@EUPSICO" target="_blank"
+                  ><i class="bx bxl-youtube"></i
+                ></a>
               </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/person_2.jpg)">
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
-                  </div>
-                </div>
+              <div class="col-auto conditions-section">
+                <!-- <a href="#">Doações</a> -->
+                <!-- <a href="#">terms</a>
+                            <a href="#">disclaimer</i></a> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
--->
-
-    <section class="ftco-section contact-section" id="contact-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Entre em contato</h2>
-            <p>Para falar com algum de nossos profissionais, marcar consulta ou triagem</p>
-          </div>
-        </div>
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center bg-light">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-map-signs"></span>
-              </div>
-              <h3 class="mb-4">Endereço</h3>
-              <p> R. Serra Parima, 82 - Jardim Planalto, Carapicuíba - SP, 06360-170</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center bg-light">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-whatsapp"></span>
-              </div>
-              <h3 class="mb-4">Celular/WhatAapp</h3>
-              <p><a href="https://api.whatsapp.com/send?phone=5511943469387&text=Olá!" target="_blank">(11) 94346-9387</a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center bg-light">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-globe"></span>
-              </div>
-              <h3 class="mb-4">Email</h3>
-              <p><a href="mailto:contato@eupsico.com.br">contato@eupsico.com.br</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="ftco-footer ftco-section img" style="background-image: url(images/footer-bg.png);">
-      <div class="overlay"></div>
-      <div class="container-fluid px-md-5">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">EuPsico</h2>
-              <p>Damos acesso à saúde mental a população com vulnerabilidade social, através de atendimentos psicológicos individuais e em grupos.</p>
-              <ul class="ftco-footer-social list-unstyled mt-5">
-                <li class="ftco-animate"><a href="https://www.linkedin.com/company/eu-psico/about/" target="_blank"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/pg/eupsico" target="_blank"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/eupsico.psi/" target="_blank"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Atendimentos</h2>
-              <ul class="list-unstyled">
-                <li><span class="icon-long-arrow-right mr-2"></span>Psicólogos</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Psicogerontólogas</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Psiquiatras</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Nutricionistas</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Psicopedagogas</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Assistentes sociais</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Grupos de atendimento</h2>
-              <ul class="list-unstyled">
-                <li><span class="icon-long-arrow-right mr-2"></span>Questões de peso</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Papo de adolescente</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Envelhecimento ativo</li>
-                <li><span class="icon-long-arrow-right mr-2"></span>Grupo de Mães</li>
-              </ul>
-            </div>
-          </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4 ml-md-4">
-            <h2 class="ftco-heading-2">Menus</h2>
-            <ul class="list-unstyled">
-              <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-              <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>Sobre</a></li>
-              <li><a href="#department-section"><span class="icon-long-arrow-right mr-2"></span>Equipe</a></li>
-              <li><a href="#what-we-do-individual-section"><span class="icon-long-arrow-right mr-2"></span>O que fazemos</a></li>
-              <li><a href="#blog-section"><span class="icon-long-arrow-right mr-2"></span>Nossos projetos</a></li>
-              <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contato</a></li>
-              <li><a href="https://pag.ae/7VvHpS7NM" target="_blank"><span class="icon-long-arrow-right mr-2"></span>Faça uma doação</a></li>
-            </ul>
-          </div>
-        </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Entre em contato</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">R. Serra Parima, 82 - Jardim Planalto, Carapicuíba - SP, 06360-170</span></li>
-                  <li><a href="tel://1234567920"><span class="icon icon-phone"></span><span class="text"> Whatsapp (11) 94346-9387</span></a></li>
-                  <li><a href="mailto:contato@eupsico.com.br"><span class="icon icon-envelope pr-4"></span><span class="text">contato@eupsico.com.br</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" id="doacao">
-          <div class="col-md-12 text-center">
-            <h2 class="ftco-heading-2">Você pode contribuir com qualquer valor</h2>
-           <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
-           <input type="hidden" name="currency" value="BRL" />
-           <input type="hidden" name="receiverEmail" value="contato@eupsico.com.br" />
-           <input type="hidden" name="iot" value="button" />
-           <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-           </form>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p style="font-size: 9px;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i></p>
-          </div>
-        </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">
+          Eupsico - O Grupo de atendimento multidisciplinar - 2022 - 2023
+        </p>
+        Distributed By
+        <a hrefs="https://themewagon.com">Copyright vicpra 2022 -ThemeWagon</a>
       </div>
     </footer>
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div class="row gy-4">
+                <div
+                  class="col-lg-4 col-sm-12 bg-cover"
+                  style="background-image: url(img/c2.jpg); min-height: 300px"
+                >
+                  <div></div>
+                </div>
+                <div class="col-lg-8">
+                  <form class="p-lg-5 col-12 row g-3">
+                    <div>
+                      <h1>Get in touch</h1>
+                      <p>
+                        Fell free to contact us and we will get back to you as
+                        soon as possible
+                      </p>
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="userName" class="form-label"
+                        >First name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Jon"
+                        id="userName"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="userName" class="form-label">Last name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Doe"
+                        id="userName"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="userName" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Johndoe@example.com"
+                        id="userName"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Enter Message</label
+                      >
+                      <textarea
+                        name=""
+                        placeholder="This is looking great and nice."
+                        class="form-control"
+                        id=""
+                        rows="4"
+                      ></textarea>
+                    </div>
 
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-brand">
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-
-  <script src="js/main.js"></script>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
